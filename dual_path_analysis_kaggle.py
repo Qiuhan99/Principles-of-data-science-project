@@ -1,6 +1,6 @@
 """
 双路径鱼类分类模型分析脚本 - Kaggle版本
-适配Kaggle环境的版本，自动处理路径和GPU设置
+适配Kaggle环境的版本，自动处理路径和GPU
 
 Kaggle使用说明:
 1. 将数据集添加到Notebook的Input中
