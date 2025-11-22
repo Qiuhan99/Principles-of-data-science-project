@@ -155,8 +155,8 @@ class FishDataset(Dataset):
                 os.path.join(BASE_DIR, img_name),
                 os.path.join(BASE_DIR, sample['filename']),
                 # Kaggle输入目录路径
-                os.path.join(INPUT_DIR, img_name),
-                os.path.join(INPUT_DIR, sample['filename']),
+                os.path.join(WORKING_DIR, img_name),
+                os.path.join(WORKING_DIR, sample['filename']),
             ]
             
             # 尝试在所有输入数据集中查找
